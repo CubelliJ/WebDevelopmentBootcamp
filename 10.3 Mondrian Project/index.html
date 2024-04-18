@@ -7,15 +7,22 @@
   <title>Mondrian Project</title>
   <style>
 
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
     .container {
       width: 500px;
       height: 500px;
       background-color: black;
       display: grid;
-      grid-template-columns: 1fr 2fr 2fr 30px;
-      grid-template-rows: 2fr 1fr 50px 1fr;
+      grid-template-columns: 0.8fr 2fr 2.5fr 30px;
+      grid-template-rows: 1fr 5fr 50px 1fr;
       grid-auto-rows: 100px;
-      gap: 10px
+      gap: 5px
     }
 
     .red {
