@@ -26,4 +26,9 @@ function eraseText(element, text, index = text.length) {
     }
 }
 
+var button = document.querySelector("button");
+// Turns on class
+button.classList.toggle("huge");
+
 typeText(lastLi, predefinedString, 0, eraseText);
+
